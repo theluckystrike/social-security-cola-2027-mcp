@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theluckystrike/social-security-cola-2027-mcp",
+  "title": "Social Security COLA 2027 MCP",
+  "description": "Social Security COLA 2027, full retirement age, earnings test and 2027 limits from SSA notices.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/theluckystrike/social-security-cola-2027-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://social-security-cola-2027-mcp.lipmichal.workers.dev/mcp"
+    }
+  ]
+}

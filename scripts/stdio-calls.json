@@ -1,0 +1,8 @@
+[
+  ["get_social_security_cola", {}],
+  ["calculate_cola_increase", { "monthly_benefit": 2008 }],
+  ["get_full_retirement_age", { "birth_date": "1960-07-15" }],
+  ["calculate_claiming_age_benefit", { "birth_date": "1962-03-10", "pia": 2400, "claim_age_years": 62 }],
+  ["get_social_security_limits", { "year": 2027 }],
+  ["calculate_earnings_test", { "annual_earnings": 40000, "monthly_benefit": 1800 }]
+]
